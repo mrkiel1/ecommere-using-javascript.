@@ -1,0 +1,83 @@
+{
+    "items": [{
+            "sys": { "id": "1" },
+            "fields": {
+                "title": "suit",
+                "price": 150,
+                "image": { "fields": { "file": { "url": "assets/images/suit1.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "2" },
+            "fields": {
+                "title": "watch",
+                "price": 12.99,
+                "image": { "fields": { "file": { "url": "assets/images/watch1.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "3" },
+            "fields": {
+                "title": "gown",
+                "price": 12.99,
+                "image": { "fields": { "file": { "url": "assets/images/gown1.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "4" },
+            "fields": {
+                "title": "polo",
+                "price": 22.99,
+                "image": { "fields": { "file": { "url": "assets/images/polo2.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "5" },
+            "fields": {
+                "title": "shoe",
+                "price": 88.99,
+                "image": { "fields": { "file": { "url": "assets/images/shoe1.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "6" },
+            "fields": {
+                "title": "shoe",
+                "price": 100,
+                "image": { "fields": { "file": { "url": "assets/images/shoe2.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "7" },
+            "fields": {
+                "title": "gown",
+                "price": 120,
+                "image": { "fields": { "file": { "url": "assets/images/gown2.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "8" },
+            "fields": {
+                "title": "gown",
+                "price": 50,
+                "image": { "fields": { "file": { "url": "assets/images/gown3.jpg" } } }
+            }
+        },
+        {
+            "sys": { "id": "9" },
+            "fields": {
+                "title": "suit",
+                "price": 100,
+                "image": { "fields": { "file": { "url": "assets/images/suit2.jpg" } } }
+            }
+        }, {
+            "sys": { "id": "10" },
+            "fields": {
+                "title": "suit",
+                "price": 250,
+                "image": { "fields": { "file": { "url": "assets/images/suit3.jpg" } } }
+            }
+        }
+
+    ]
+}

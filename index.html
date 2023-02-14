@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce using javascript</title>
+    <!-- fontawesome cs -->
+    <link rel="stylesheet" href="assets/css/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <!-- custom styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <!-- == header section == -->
+    <header>
+        <nav class="nav container" id="nav">
+            <div class="navbar">
+                <a href="# " class="nav__logo">
+                    <h2>DESIGNER <span>HUB</span></h2>
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="active" href="#home">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact">Contact Us</a>
+                        </li>
+                        <div class="nav__close" id="nav-close">
+                            <i class="fas fa-xmark"></i>
+                        </div>
+                    </ul>
+                </div>
+                <div class="nav__content">
+                    <div class="cart-btn" id="cart-btn">
+                        <span> <i class="fas fa-cart-plus"></i></span>
+                        <span class="cart__item-count" id="cart-item-count">0</span>
+                    </div>
+                    <div class="nav__bar" id="nav-open">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- == End of header section == -->
+    <!-- == Home Section == -->
+    <section id="home" class="home">
+        <div class="home__container container grid">
+            <article class="home__data">
+                <span class="home__subtitle">Hot Clothing Collection</span>
+                <h2 class="home__title">
+                    The best place to <br /> find and buy <br />
+                    <span> Amazing product</span>
+                </h2>
+                <a href="#products" class="general__btn home__btn">
+                    <span>Explore</span> <i class="fas fa-arrow-right"></i
+          ></a>
+        </article>
+      </div>
+    </section>
+    <!-- == End of header section == -->
+
+    <!-- == product section == -->
+    <section class="products" id="products">
+      <div class="product__container container grid">
+        <div class="product__header">
+          <h2 class="product__title">Exclusive <span>Product</span></h2>
+          <span class="product__subtitle">
+            Search for latest and exclusive product here</span
+          >
+        </div>
+        <div class="product__utility">
+          <form action=" " class="product__form" id="searchForm">
+            <div class="form__group">
+              <input
+                class="form__input"
+                type="text "
+                placeholder="Search Product"
+                maxlength="50"
+                id="search-input"
+              />
+              <i class="fas fa-search"></i>
+        </div>
+        </form>
+        </div>
+
+        <div class="product__items" id="product-item">
+            <!-- <div class="product__card">
+            <div class="product__data1">
+              <img
+                class="product__img"
+                src="assets/images/suit1.jpg"
+                alt=" product image "
+              />
+              <div class="product__react">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="product__data2">
+              <div>
+                <p class="product__item-title">Shirt</p>
+                <button class="product__btn" data-id="1">Add to Cart</button>
+              </div>
+              <h3 class="product__price">$20</h3>
+            </div>
+          </div> -->
+        </div>
+        </div>
+    </section>
+    <!-- == End of product section == -->
+    <!-- == cart == -->
+    <div class="cart" id="cart">
+        <span class="close__cart" id="close-cart">
+        <i class="fas fa-window-close"></i>
+      </span>
+        <h3>Your Cart</h3>
+        <div class="card__content" id="card-content">
+            <!-- <div class="card__data">
+                <img class="cart__img" src="assets/images/watch3.jpg" alt="" />
+                <div>
+                    <p class="cart__name">Shirt</p>
+                    <p class="cart__price">$20</p>
+                    <p class="remove__item">remove</p>
+                </div>
+                <div class="cart__icon">
+                    <i class="fas fa-chevron-up"></i>
+                    <p class="item__count">1</p>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="cart__footer">
+            <h3>
+                your total : $ <span class="cart__total" id="cart-total">0</span>
+            </h3>
+            <button type="button" class="clear__cart" id="clear-btn">
+          Clear Cart
+        </button>
+        </div>
+    </div>
+    <!-- == end of cart == -->
+    <!-- == End of footer section == -->
+    <footer class="footer" id="contact">
+        <div class="footer__container container grid">
+            <div class="footer__1">
+                <h2 class="footer__logo">DESIGNER <span>HUB</span></h2>
+
+                <h3>Always Choose Us</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita illum iure iste voluptate praesentium modi molestiae nostrum magnam ipsam!
+                </p>
+            </div>
+            <div class="footer__2">
+                <div class="footer__socials">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <span class="copyright"> Copyright &copy LeadingTech</span>
+    </footer>
+    <!-- == End of footer section == -->
+    <!-- == scroll up == -->
+    <a href="#" class="scroll__top" id="scroll-up"><i class="fas fa-arrow-up"></i
+    ></a>
+
+    <!-- javascript -->
+    <script src="assets/js/app.js "></script>
+</body>
+
+</html>
